@@ -578,38 +578,38 @@ html {
     margin-bottom: 15px;
     text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
     gap: 10px; /* Espaciado entre el label y el select */
 }
 
 .producto-cantidad label {
-    font-size: 0.9rem;
-    color: var(--color-texto-claro); /* Texto blanco */
-    font-weight: bold;
+    font-size: 0.9rem; /* Tamaño del texto */
+    color: var(--color-texto-claro); /* Color del texto (blanco) */
+    font-weight: bold; /* Texto en negrita */
 }
 
 .cantidad-select {
-    padding: 5px 15px;
-    border-radius: 25px; /* Bordes más redondeados */
+    padding: 5px 15px; /* Espaciado interno */
+    border-radius: 25px; /* Bordes redondeados */
     border: 2px solid var(--color-secundario); /* Borde amarillo claro */
-    font-size: 0.9rem;
-    color: var(--color-primario); /* Texto rojo oscuro */
+    font-size: 0.9rem; /* Tamaño del texto */
+    color: var(--color-primario); /* Color del texto (rojo oscuro) */
     background-color: #fff; /* Fondo blanco */
-    cursor: pointer;
-    transition: all 0.3s ease;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 .cantidad-select:hover {
-    border-color: var(--color-terciario); /* Rosa claro */
+    border-color: var(--color-terciario); /* Cambia el borde a rosa claro */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
 
 .cantidad-select:focus {
-    outline: none;
-    border-color: var(--color-secundario); /* Amarillo claro */
-    box-shadow: 0 0 10px var(--color-secundario); /* Resaltado */
+    outline: none; /* Elimina el contorno predeterminado */
+    border-color: var(--color-secundario); /* Resalta el borde en amarillo claro */
+    box-shadow: 0 0 10px var(--color-secundario); /* Resaltado adicional */
 }
 
 
